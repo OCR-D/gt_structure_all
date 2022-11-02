@@ -7,6 +7,7 @@
 - https://github.com/tboenig/gt_structure_2_1
 - https://github.com/tboenig/gt_structure_2_2
 - https://github.com/tboenig/gt_structure_2_3
+- https://github.com/tboenig/gt_structure_2_3
 - https://github.com/tboenig/gt_structure_3_1
 - https://github.com/tboenig/gt_structure_3_2
 - https://github.com/tboenig/gt_structure_3_3
