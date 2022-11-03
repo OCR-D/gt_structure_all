@@ -19,7 +19,7 @@
 - https://github.com/tboenig/gt_structure_3_1/actions
   - https://tboenig.github.io/gt_structure_3_1/
 - https://github.com/tboenig/gt_structure_3_2/actions
-  - https://tboenig.github.io/gt_structure_3_3/
+  - https://tboenig.github.io/gt_structure_3_2/
 - https://github.com/tboenig/gt_structure_3_3/actions
   - https://tboenig.github.io/gt_structure_3_3/
 - https://github.com/tboenig/gt_structure_4_1/actions
