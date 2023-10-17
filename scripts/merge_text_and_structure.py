@@ -8,7 +8,7 @@ def merge(gt_structure_path: str, gt_text_path: str, out_path: str) -> None:
     in a page-xml-files text-equivs and writes the page-xml to a file.
     """
 
-    # --- READ PSEUDO PAGE XML
+    # --- READ GT-TEXT-PSEUDO-PAGE-XML
     tree = ET.parse(gt_text_path)
     pseudo_page = tree.getroot()
     page_nb = pseudo_page.attrib.get("n")
@@ -22,7 +22,7 @@ def merge(gt_structure_path: str, gt_text_path: str, out_path: str) -> None:
         else:
             pseudo_page_regions_dict["text"].append(pseudo_region.text)
 
-    # ---- INSERT IN STRUCTURE PAGE XML -----
+    # ---- INSERT IN GT-STRUCTURE-PAGE-XML -----
     pcgts = parse(gt_structure_path)
     page = pcgts.get_Page()
     # create list of all region types in gt-structure-page-xml
