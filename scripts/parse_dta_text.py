@@ -26,12 +26,22 @@ def _unicode_escape_replace(match):
 def unicode_escape_replace(s):
     return re.sub(r"&x?([^;]+);", _unicode_escape_replace, s)
 
+def _frac_replace(match):
+    frac_string = ""
+    if match.group(1):
+        frac_string += "%s%s" % (match.group(1), chr(65279))
+    frac_string += "%s⁄%s" % (match.group(2)[0], match.group(2)[1:])
+    return frac_string
+
+def frac_replace(s):
+    return re.sub(r"([0-9]*)&frac([^;]+);", _frac_replace, s)
+
+
 class DTATextParser(HTMLParser):
-    ignore_tags = ("g")
-    treat_as_empty = ("pb", "cb", "hr", "formel")
-    # TODO: define block begin: p, cb
-    # TODO: ignore text in "<tab></tab>"
-    ignore_content_in = ()
+    ignore_tags = ("g", "tab")
+    treat_as_empty = ("pb", "cb", "hr", "formel", "tab")
+    block_begin = ("p", "cb")
+    ignore_content_in = ("table")
     # TODO: marginalia always in own region
     always_own_region = ()
     # TODO: footnotes
@@ -41,12 +51,13 @@ class DTATextParser(HTMLParser):
         self.onpage = False
         self.pagecount = 0
         self.hanging = []
+        self.ignore_until = []
         self.feed(text)
         return self.pages
     
     def handle_starttag(self, tag, attrs):
         if self.onpage and not any(tag.startswith(x) for x in self.treat_as_empty):
-            self.element_stack.append(tag)  # TODO: I guess this should also be active outside of the "onpage" context
+            self.element_stack.append(tag)
         if tag.startswith("pb"):
             self.pagecount += 1
             self.onpage = self.pagecount in self.pages
@@ -55,14 +66,18 @@ class DTATextParser(HTMLParser):
                 page_number = tag.split("=")[-1].strip('"')
                 self.pages[self.pagecount].attrib["n"] = page_number
         elif self.onpage:
-            if tag == "p":
+            if tag in self.block_begin:
                 tr = etree.SubElement(self.pages[self.pagecount], "TextRegion", {"type": "paragraph"})
             elif tag == "kt":
                 tr = etree.SubElement(self.pages[self.pagecount], "TextRegion", {"type": "header"})
+            elif tag in self.ignore_content_in:
+                self.ignore_until.append(tag)
             elif tag not in self.ignore_tags:
                 raise NotImplementedError(f"No handler for start of tag {tag} implemented!")
 
     def handle_endtag(self, tag):
+        if self.ignore_until and self.ignore_until[-1] == tag:
+            _ = self.ignore_until.pop()
         if self.onpage and tag in self.element_stack:
             self.element_stack.remove(tag)
         elif not tag.startswith(self.treat_as_empty):
@@ -87,8 +102,9 @@ class DTATextParser(HTMLParser):
                 self.hanging.append(tr)  # type of this region will be defined in handle_endtag later
             else:
                 tr = curpage[-1]
-            data = unicode_escape_replace(frac_replace(data))
-            tr.text = data if tr.text is None else tr.text + data
+            if not self.ignore_until:
+                data = unicode_escape_replace(frac_replace(data))
+                tr.text = data if tr.text is None else tr.text + data
 
 
 
