@@ -6,39 +6,21 @@ The 'gt_structure_all' repository is a comprehensive collection that catalogues 
  
 
 ## Data-Repositories
- - https://tboenig.github.io/gt_structure_1_1/
- - https://tboenig.github.io/gt_structure_1_2/
- - https://tboenig.github.io/gt_structure_1_3/
- - https://tboenig.github.io/gt_structure_1_4/
- - https://tboenig.github.io/gt_structure_2_1/
- - https://tboenig.github.io/gt_structure_2_2/
- - https://tboenig.github.io/gt_structure_2_3/
- - https://tboenig.github.io/gt_structure_2_4/
- - https://tboenig.github.io/gt_structure_3_1/
- - https://tboenig.github.io/gt_structure_3_2/
- - https://tboenig.github.io/gt_structure_3_3/
- - https://tboenig.github.io/gt_structure_4_1/
- - https://tboenig.github.io/gt_structure_4_2/
+ - https://OCR-D.github.io/gt_structure_1_1/
+ - https://OCR-D.github.io/gt_structure_1_2/
+ - https://OCR-D.github.io/gt_structure_1_3/
+ - https://OCR-D.github.io/gt_structure_1_4/
+ - https://OCR-D.github.io/gt_structure_2_1/
+ - https://OCR-D.github.io/gt_structure_2_2/
+ - https://OCR-D.github.io/gt_structure_2_3/
+ - https://OCR-D.github.io/gt_structure_2_4/
+ - https://OCR-D.github.io/gt_structure_3_1/
+ - https://OCR-D.github.io/gt_structure_3_2/
+ - https://OCR-D.github.io/gt_structure_3_3/
+ - https://OCR-D.github.io/gt_structure_4_1/
+ - https://OCR-D.github.io/gt_structure_4_2/
 
  
- 
-
-## Metadata
- - https://github.com/tboenig/gt_structure_1_1/blob/gh-pages/metadata.json
- - https://github.com/tboenig/gt_structure_1_2/blob/gh-pages/metadata.json
- - https://github.com/tboenig/gt_structure_1_3/blob/gh-pages/metadata.json
- - https://github.com/tboenig/gt_structure_1_4/blob/gh-pages/metadata.json
- - https://github.com/tboenig/gt_structure_2_1/blob/gh-pages/metadata.json
- - https://github.com/tboenig/gt_structure_2_2/blob/gh-pages/metadata.json
- - https://github.com/tboenig/gt_structure_2_3/blob/gh-pages/metadata.json
- - https://github.com/tboenig/gt_structure_2_4/blob/gh-pages/metadata.json
- - https://github.com/tboenig/gt_structure_3_1/blob/gh-pages/metadata.json
- - https://github.com/tboenig/gt_structure_3_2/blob/gh-pages/metadata.json
- - https://github.com/tboenig/gt_structure_3_3/blob/gh-pages/metadata.json
- - https://github.com/tboenig/gt_structure_4_1/blob/gh-pages/metadata.json
- - https://github.com/tboenig/gt_structure_4_2/blob/gh-pages/metadata.json
-
-
 ## Text Data
 
 You can locate text data in the overview repository at this link:  https://github.com/tboenig/gt_structure_dtaText
