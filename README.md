@@ -23,7 +23,7 @@ The 'gt_structure_all' repository is a comprehensive collection that catalogues 
  
 ## Text Data
 
-If you wish to incorporate text data into these structural datasets, please refer to the overview repository available at the following link:  https://github.com/tboenig/gt_structure_dtaText
+If you wish to incorporate text data into these structural datasets, please refer to the overview repository available at the following link:  https://github.com/deutschestextarchiv/gt_structure_dtaText
 
 
 
