@@ -19,10 +19,7 @@ The 'gt_structure_all' repository is a comprehensive collection that catalogues 
  - https://tboenig.github.io/gt_structure_3_3/
  - https://tboenig.github.io/gt_structure_4_1/
  - https://tboenig.github.io/gt_structure_4_2/
- - https://tboenig.github.io/gt_structure_4_3/
- - https://tboenig.github.io/gt_structure_5_1/
- - https://tboenig.github.io/gt_structure_5_2/
- - https://tboenig.github.io/gt_structure_5_3/
+
  
  
 
@@ -40,14 +37,11 @@ The 'gt_structure_all' repository is a comprehensive collection that catalogues 
  - https://github.com/tboenig/gt_structure_3_3/blob/gh-pages/metadata.json
  - https://github.com/tboenig/gt_structure_4_1/blob/gh-pages/metadata.json
  - https://github.com/tboenig/gt_structure_4_2/blob/gh-pages/metadata.json
- - https://github.com/tboenig/gt_structure_4_3/blob/gh-pages/metadata.json
- - https://github.com/tboenig/gt_structure_5_1/blob/gh-pages/metadata.json
- - https://github.com/tboenig/gt_structure_5_2/blob/gh-pages/metadata.json
- - https://github.com/tboenig/gt_structure_5_3/blob/gh-pages/metadata.json
+
 
 ## Text Data
 
-You can find text data in the overview repo: https://github.com/tboenig/gt_structure_dtaText
+You can locate text data in the overview repository at this link:  https://github.com/tboenig/gt_structure_dtaText
 
 Currently the following titles have no text data:
 - bebel_frau_1879
