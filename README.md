@@ -1,8 +1,7 @@
 
 # gt_structure_all
 
-The repository "gt_structure_all" lists all of the partial Ground Truth-structure repositories.
-Altogether, these repositories represent the OCR-D Ground Truth Structure corpus. The corpus consists exclusively of data in page format, reflecting only the structure (segments/regions) of the printed page. The corpus was created as part of the DFG project OCR-D.
+The 'gt_structure_all' repository is a comprehensive collection that catalogues all the individual Ground Truth Structure repositories. Collectively, these repositories make up the OCR-D Ground Truth Structure corpus. This corpus exclusively contains data in page format, capturing the structural elements (segments/regions) of printed pages. It was established as part of the DFG project OCR-D.
  
  
 
