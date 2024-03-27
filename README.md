@@ -19,6 +19,11 @@ The 'gt_structure_all' repository is a comprehensive collection that catalogues 
  - https://OCR-D.github.io/gt_structure_3_3/
  - https://OCR-D.github.io/gt_structure_4_1/
  - https://OCR-D.github.io/gt_structure_4_2/
+ - https://OCR-D.github.io/gt_structure_4_3/
+ - https://OCR-D.github.io/gt_structure_4_4/
+ - https://OCR-D.github.io/gt_structure_5_1/
+ - https://OCR-D.github.io/gt_structure_5_2/
+ - https://OCR-D.github.io/gt_structure_5_3/
 
  
 ## Text Data
