@@ -23,9 +23,13 @@ The 'gt_structure_all' repository is a comprehensive collection that catalogues 
  - https://OCR-D.github.io/gt_structure_5_1/
  - https://OCR-D.github.io/gt_structure_5_2/
  - https://OCR-D.github.io/gt_structure_5_3/
+---
+## ![zenodo logo](https://about.zenodo.org/static/img/logos/zenodo-gradient-round.svg)
 
-## Data-Repositories Zenodo
+All data records are also listed in Zenodo.  And thus also have a DOI.
+When changes are made and a new release is created, the data set is given a new DOI. 
 
+Access to the OCR-D datasets in Zenodo: https://zenodo.org/communities/ocr-d/records?q=&f=subject%3Aground-truth&l=list&p=1&s=10&sort=newest
 
  
 ## Text Data
