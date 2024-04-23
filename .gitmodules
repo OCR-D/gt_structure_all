@@ -1,0 +1,51 @@
+[submodule "datasets/gt_structure_1_1"]
+	path = datasets/gt_structure_1_1
+	url = https://github.com/OCR-D/gt_structure_1_1
+[submodule "datasets/gt_structure_1_2"]
+	path = datasets/gt_structure_1_2
+	url = https://github.com/OCR-D/gt_structure_1_2
+[submodule "datasets/gt_structure_1_3"]
+	path = datasets/gt_structure_1_3
+	url = https://github.com/OCR-D/gt_structure_1_3
+[submodule "datasets/gt_structure_1_4"]
+	path = datasets/gt_structure_1_4
+	url = https://github.com/OCR-D/gt_structure_1_4
+[submodule "datasets/gt_structure_2_1"]
+	path = datasets/gt_structure_2_1
+	url = https://github.com/OCR-D/gt_structure_2_1
+[submodule "datasets/gt_structure_2_2"]
+	path = datasets/gt_structure_2_2
+	url = https://github.com/OCR-D/gt_structure_2_2
+[submodule "datasets/gt_structure_2_3"]
+	path = datasets/gt_structure_2_3
+	url = https://github.com/OCR-D/gt_structure_2_3
+[submodule "datasets/gt_structure_2_4"]
+	path = datasets/gt_structure_2_4
+	url = https://github.com/OCR-D/gt_structure_2_4
+[submodule "datasets/gt_structure_3_1"]
+	path = datasets/gt_structure_3_1
+	url = https://github.com/OCR-D/gt_structure_3_1
+[submodule "datasets/gt_structure_3_2"]
+	path = datasets/gt_structure_3_2
+	url = https://github.com/OCR-D/gt_structure_3_2
+[submodule "datasets/gt_structure_3_3"]
+	path = datasets/gt_structure_3_3
+	url = https://github.com/OCR-D/gt_structure_3_3
+[submodule "datasets/gt_structure_4_1"]
+	path = datasets/gt_structure_4_1
+	url = https://github.com/OCR-D/gt_structure_4_1
+[submodule "datasets/gt_structure_4_2"]
+	path = datasets/gt_structure_4_2
+	url = https://github.com/OCR-D/gt_structure_4_2
+[submodule "datasets/gt_structure_4_3"]
+	path = datasets/gt_structure_4_3
+	url = https://github.com/OCR-D/gt_structure_4_3
+[submodule "datasets/gt_structure_5_1"]
+	path = datasets/gt_structure_5_1
+	url = https://github.com/OCR-D/gt_structure_5_1
+[submodule "datasets/gt_structure_5_2"]
+	path = datasets/gt_structure_5_2
+	url = https://github.com/OCR-D/gt_structure_5_2
+[submodule "datasets/gt_structure_5_3"]
+	path = datasets/gt_structure_5_3
+	url = https://github.com/OCR-D/gt_structure_5_3
