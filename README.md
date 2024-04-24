@@ -30,6 +30,11 @@ It was established as part of the [DFG](https://ocr-d.de) funded project [OCR-D]
  - [datasets/gt_structure_5_2](https://OCR-D.github.io/gt_structure_5_2/)
  - [datasets/gt_structure_5_3](https://OCR-D.github.io/gt_structure_5_3/)
 
+## Cloning the repository with submodules
+
+`git clone --recurse-submodules -j8 https://github.com/OCR-D/gt_structure_all.git`
+
+
 ## Zenodo
 
 ![zenodo logo](https://about.zenodo.org/static/img/logos/zenodo-gradient-round.svg)
@@ -43,8 +48,8 @@ Access to the OCR-D datasets in Zenodo via [this search](https://zenodo.org/comm
 
 ## Text Data
 
-If you wish to incorporate text data into these structural datasets, then please
-refer to the [overview/workflow repository](https://github.com/deutschestextarchiv/gt_structure_dtaText)
+If you wish to incorporate text data into these structural datasets, then please 
+use the datasets or data from [gt_structure_dtaText repository](https://github.com/deutschestextarchiv/gt_structure_dtaText).
 
 
 
