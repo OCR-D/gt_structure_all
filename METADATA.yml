@@ -1,0 +1,47 @@
+schema: https://tboenig.github.io/gt-metadata/schema/2023-10-25/schema.json
+title: gt_structure_all
+url: https://github.com/OCR-D/gt_structure_all
+authors:
+  - name: Matthias
+    surname: Boenig
+    orcid: 0000-0003-4615-4753
+    roles:
+      - institution
+      - transcriber
+      - aligner
+      - project-manager
+      - quality-control
+      - digitization
+      - support
+description: >-
+  This meta-repository is a comprehensive collection of all official OCR-D
+  Ground Truth repositories with structural annotations (i.e. only layout, but
+  no text). Together, these datasets make up the OCR-D Structure GT corpus,
+  which contains images and their respective annotations in PAGE format,
+  capturing the structural elements (segments=regions but not lines) of printed
+  pages
+project-name: OCR-D
+project-website: https://ocr-d.de/
+language:
+  - eng
+  - fra
+  - deu
+production-software: Aletheia
+script:
+  - iso: Latn
+  - iso: Goth
+script-type: print
+time:
+  notBefore: '1600'
+  notAfter: '1900'
+hands:
+  count: '3'
+  level: levelmix
+license:
+  - name: PublicDomainMark 1.0
+    url: https://creativecommons.org/publicdomain/mark/1.0/
+gtType: data_structure
+format: Page-XML
+transcription-guidelines: >-
+  OCR-D-GT-Guideline, Part: Structure Ground Truth
+  https://ocr-d.de/en/gt-guidelines/trans/structur_gt.html
